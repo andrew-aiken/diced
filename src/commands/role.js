@@ -22,7 +22,6 @@ module.exports = {
       console.log(`Rolling ${numDice}d${numSides}:`);
       for (let i = 0; i < numDice; i++) {
         const result = Math.floor(Math.random() * numSides) + 1;
-        console.log(`Die ${i + 1}: ${result}`);
         total += result;
         results.push(result);
       }
