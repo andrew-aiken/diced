@@ -1,0 +1,29 @@
+{
+  "name": "diced",
+  "version": "1.0.0",
+  "description": "Discord dice bot",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "route": "node routes/create.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-aiken/diced.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrew-aiken/diced/issues"
+  },
+  "homepage": "https://github.com/andrew-aiken/diced#readme",
+  "dependencies": {
+    "discord.js": "^14.12.1",
+    "dotenv": "^16.3.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
